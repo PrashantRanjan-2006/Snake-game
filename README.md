@@ -1,21 +1,36 @@
 # Snake Game
 
-A classic **Snake Game** implemented in **Python**.
+A modern Snake Game built with **Python** and **Pygame**.
 
 ## Features
 
-- Classic snake movement and growth
-- Score tracking
-- Game-over on wall/self collision
-- Simple controls
+- Smooth snake movement and growth
+- Score and persistent high-score tracking
+- Collision-based game over (wall and self)
+- Pause menu and game over screen
+- Fullscreen toggle support
 
 ## Requirements
 
-- Python 3.x
+- Python 3.7+
+- `pygame` 2.x
 
-> If this project uses a library such as `pygame` or `turtle`, make sure it is installed before running the game.
+## Project Structure
 
-## How to Run
+```text
+Snake-game/
+├── README.md
+└── phthon games/
+    └── snake_game/
+        ├── main.py
+        ├── test.py
+        ├── highscore.txt
+        ├── setup.sh
+        ├── setup.bat
+        └── docs/
+```
+
+## Setup
 
 1. Clone the repository:
 
@@ -34,37 +49,43 @@ A classic **Snake Game** implemented in **Python**.
    source .venv/bin/activate
    ```
 
-3. Install dependencies (if any):
+3. Install dependencies:
 
    ```bash
-   pip install -r requirements.txt
+   pip install pygame
    ```
 
-4. Run the game (replace the file name with the actual entry file if different):
+## Run the Game
 
-   ```bash
-   python main.py
-   ```
+```bash
+cd "phthon games/snake_game"
+python main.py
+```
 
 ## Controls
 
-- **Arrow Keys**: Move the snake
-- **Esc / Close Window**: Quit
+- **Arrow Keys / WASD**: Move snake
+- **P**: Pause/Resume
+- **ESC**: Back to menu
+- **F11**: Toggle fullscreen
+- **Close Window**: Quit
 
-## Project Structure
+## Verify Installation
 
-- `main.py` (or similar): game entry point
-n- Other Python files: game logic, rendering, and utilities
+```bash
+cd "phthon games/snake_game"
+python test.py
+```
 
 ## Contributing
 
-Contributions are welcome!
+Contributions are welcome.
 
-- Fork the repo
-- Create a new branch
-- Commit your changes
-- Open a pull request
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Open a pull request
 
 ## License
 
-This project is provided as-is. If you want to add a license, consider adding a `LICENSE` file (e.g., MIT).
+This project is currently provided as-is.
