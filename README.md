@@ -30,6 +30,8 @@ Snake-game/
         └── docs/
 ```
 
+> Note: The repository folder is currently named `phthon games`, so commands in this README use that exact path.
+
 ## Setup
 
 1. Clone the repository:
